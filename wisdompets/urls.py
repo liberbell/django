@@ -21,6 +21,6 @@ from adoptions import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    url(r'^$', views.home, name='name'),
+    url(r'^$', views.home, name='home'),
     url(r'^adoptions/(\d+)/', views.pet_detail, name='pet_detail'),
 ]
